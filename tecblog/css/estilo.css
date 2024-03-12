@@ -1,0 +1,142 @@
+/*Reset*/
+
+body{
+	font-size: 1em;
+	background: #e6e6e6;
+	font-family: Helvetica, sans-serif;
+}
+
+h2{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+/*Cabecalho*/
+
+#cabecalho{
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+
+/*Formatações gerais*/
+
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+.white{
+	color: white;
+}
+
+/*Formatação do menu*/
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: #f7b600;
+
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+#cabecalho a:link, #cabecalho a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#cabecalho a:hover{
+	color: #f7b600;
+	background: white;
+	text-decoration: none;
+}
+
+
+/*LAYOUT*/
+
+#area-principal{
+	margin: 0px  auto;
+	width: 920px;
+	padding: 15px;
+}
+
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+
+#area-postagens h2{
+	color: #f7b600;
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+
+.rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+
+}
+
+.datapostagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+img{
+	padding-bottom: 10px;
+}
+
+/*LATERAL*/
+
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+h3{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+
+.categorias{
+	padding: 10px;
+}
+
+.categorias a{
+	display: block;
+}
